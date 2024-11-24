@@ -4,31 +4,34 @@
 GET {{baseUrl}}/
 
 ### Get livros
-GET {{baseUrl}}/livros
+GET {{baseUrl}}/autors
 
 ### Get livros
-GET {{baseUrl}}/livros/3
+GET {{baseUrl}}/livros/674333c05a8708e65ec1c18c
 
 ### POST livros
-POST  {{baseUrl}}/livros
+POST  {{baseUrl}}/autors
 Content-Type: application/json
 
 {
-    "id": 3,
-    "titulo": "spider"
+    "nome": "spider",
+    "nacionalidade": "otro",
 }
 
 
 ### PUT livros
-PUT {{baseUrl}}/livros/1
+PUT {{baseUrl}}/livros/674333c05a8708e65ec1c18c
 Content-Type: application/json
 
 {
-    "titulo": "spider"
+    "titulo": "mama",
+    "editora": "o",
+    "preco": 5354,
+    "paginas": 5
 }
 
 
 ### DELETE livros
-DELETE {{baseUrl}}/livros/1
+DELETE {{baseUrl}}/livros/674333c05a8708e65ec1c18c
 Content-Type: application/json
 
