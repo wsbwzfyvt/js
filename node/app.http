@@ -5,3 +5,30 @@ GET {{baseUrl}}/
 
 ### Get livros
 GET {{baseUrl}}/livros
+
+### Get livros
+GET {{baseUrl}}/livros/3
+
+### POST livros
+POST  {{baseUrl}}/livros
+Content-Type: application/json
+
+{
+    "id": 3,
+    "titulo": "spider"
+}
+
+
+### PUT livros
+PUT {{baseUrl}}/livros/1
+Content-Type: application/json
+
+{
+    "titulo": "spider"
+}
+
+
+### DELETE livros
+DELETE {{baseUrl}}/livros/1
+Content-Type: application/json
+
