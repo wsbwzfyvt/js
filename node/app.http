@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:3000
+
+### Get home
+GET {{baseUrl}}/
+
+### Get livros
+GET {{baseUrl}}/livros
